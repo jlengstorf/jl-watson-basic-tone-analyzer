@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: jl-watson-basic-tone-analyzer
+  host: jl-watson-basic-tone-analyzer
+  disk_quota: 1024M
+  services:
+  - Tone Analyzer-28
+  - availability-monitoring-auto
+  - Mobile Client Access-izu94gnm
+  env:
+    NPM_TOKEN: 123asdfa
